@@ -10,6 +10,7 @@ export const routes: Routes = [
     {path: '',component: HomeComponent},
     {path:'filmes/em-cartaz', component: EmCartazComponent},
     {path:'filmes/detalhes/:id', component: DetalhesComponent},
+	
     {path: 'salas', component: SalaListaComponent},
     {path: 'salas/novo', component: SalaFormComponent},
    
